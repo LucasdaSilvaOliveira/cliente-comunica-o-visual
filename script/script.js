@@ -3,8 +3,20 @@ const target = document.querySelectorAll('[data-scroll-revell]');
 const toggleMenu = document.getElementById('toggle_menu');
 const menu = document.querySelector('nav');
 const itensMenu = Array.from(document.querySelectorAll('.itens_menu'));
-const fotosItem = document.querySelectorAll('.fotos_item');
-console.log(fotosItem)
+const listItens = Array.from(document.querySelectorAll('li'));
+
+function animarLista() {
+    listItens.forEach((lista,index) => {
+        setTimeout(() => {
+            lista.classList.add('animation_list_class')
+
+            lista.style.transform = 'translateX(0px)'
+
+        }, 300 * index)
+    })
+}
+
+animarLista()
 
 function animateTitle(elemento) {
 

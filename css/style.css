@@ -125,7 +125,7 @@ main {
 #div_logo_inicio {
     display: flex;
     gap: 30px;
-    margin-top: 140px;
+    margin-top: 100px;
 }
 
 .logo_inicio {
@@ -146,6 +146,10 @@ main {
     font-size: 25px;
     list-style-type: square;
     font-weight: bold;
+    transform: translateX(-385px);
+}
+
+.animation_list_class {
     animation-name: listAnimation;
     animation-duration: 2000ms;
     animation-timing-function: linear;
@@ -157,7 +161,7 @@ main {
     }
 
     50% {
-        transform: translateX(385px);
+        transform: translateX(150px);
     }
 
     100% {
@@ -289,6 +293,10 @@ video {
     border: 3px solid #340b58;
     transition: all 150ms ease-in-out;
     opacity: 0.95;
+}
+
+.ampliar_foto {
+    width: 500px;
 }
 
 .fotos_item:hover {

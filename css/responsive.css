@@ -1,6 +1,4 @@
 @media (max-width: 1180px) {
-    header {}
-
     nav {
         margin-right: 0px;
         gap: 60px;
@@ -149,6 +147,10 @@
     #info_inicio {
         padding-left: 0px;
         padding-right: 0px;
+    }
+    #info ul li {
+        width: max-content;
+        margin: auto;
     }
     .fotos_item {
         width: 95%;
