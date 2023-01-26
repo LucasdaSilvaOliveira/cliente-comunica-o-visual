@@ -1,0 +1,156 @@
+@media (max-width: 1180px) {
+    header {}
+
+    nav {
+        margin-right: 0px;
+        gap: 60px;
+    }
+}
+
+@media (max-width: 982px) {
+    #info_sobrenos {
+        width: 450px;
+    }
+
+    #div_logo_inicio {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    #info h1 {
+        font-size: 30px;
+    }
+
+    #info ul li {
+        font-size: 20px;
+        animation: none;
+    }
+
+    #sobrenos {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #span_circulo {
+        transform: translateY(-380px);
+        width: 70px;
+        height: 70px;
+        font-size: 50px;
+    }
+
+    #info_sobrenos {
+        text-align: center;
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #info_sobrenos h1,
+    #info_sobrenos h2 {
+        border: none;
+    }
+}
+
+@media (max-width: 780px) {
+    #span_circulo {
+        display: none;
+    }
+
+    #logo {
+        text-align: center;
+    }
+
+    nav {
+        gap: 40px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    nav a:hover {
+        font-size: 20px;
+    }
+
+    #div_logo_inicio {
+        margin-top: 50px;
+    }
+
+    #info h1 {
+        font-size: 24px;
+    }
+
+    #info ul {
+        line-height: 35px;
+    }
+
+    .foto_sobrenos {
+        width: 80%;
+    }
+}
+
+@media (max-width: 660px) {
+    #inicio {
+        height: max-content;
+    }
+
+    #info_inicio {
+        flex-direction: column;
+        text-align: center;
+    }
+    #info h1 {
+        font-size: 35px;
+    }
+    #info ul li {
+        list-style-type: none;
+        border-bottom: 1px solid #666262;
+    }
+    #div_logo_inicio {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    #fotos_section h1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 580px) {
+    #toggle_menu {
+        display: block;
+    }
+    nav {
+        flex-direction: column;
+        background-color: #9b9191;
+        position: absolute;
+        margin-top: 320px;
+        right: 0;
+        justify-content: right;
+        padding: 0px;
+        gap: 0;
+        height: 0px;
+    }
+    nav a {
+        visibility: hidden;
+        width: 100%;
+        padding: 20px 30px;
+        text-align: center;
+    }
+    nav a:hover {
+        border-left: none;
+        font-size: 18px;
+        background-color: antiquewhite;
+    }
+    
+}
+
+@media (max-width: 468px) {
+    #info_inicio {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .fotos_item {
+        width: 95%;
+    }
+}

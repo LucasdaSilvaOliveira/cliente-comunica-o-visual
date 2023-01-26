@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
     <title>Renov Comunicação Visual</title>
 </head>
 
@@ -15,11 +17,12 @@
             <h1>RENO<span>V</span></h1>
             <span>Comunicação Visual</span>
         </div>
+        <img id="toggle_menu" src="img/menu_hamburguer_logo.png" alt="Toggle menu">
         <nav>
-            <a href="#inicio">Início</a>
-            <a href="#sobrenos">Sobre Nós</a>
-            <a href="#fotos">Fotos</a>
-            <a href="#contato">Contato</a>
+            <a class="itens_menu" href="#inicio">Início</a>
+            <a class="itens_menu" href="#sobrenos">Sobre Nós</a>
+            <a class="itens_menu" href="#fotos">Fotos</a>
+            <a class="itens_menu" href="#contato">Contato</a>
         </nav>
     </header>
     <main id="container">
@@ -28,23 +31,26 @@
                 <div id="info">
                     <h1 id="main_title">Trabalho realizado com qualidade sempre!</h1>
                     <ul>
-                        <li>Fachadas em ACM;</li>
-                        <li>Letras Caixa;</li>
-                        <li>Letras em acrílico;</li>
-                        <li>Letras em PS;</li>
+                        <li>Fachadas em ACM</li>
+                        <li>Letras Caixa</li>
+                        <li>Letras em acrílico</li>
+                        <li>Letras em PS</li>
                     </ul>
                     <div id="div_logo_inicio">
-                        <a href="https://wa.me/556183167093" target="_blank"><img class="logo_inicio" src="img/whatsapp_logo_inicio.webp" alt="Whatsapp logo"></a>
-                        <a href="https://www.instagram.com/renovcomunicacao/?igshid=ZDdkNTZiNTM%3D" target="_blank"><img class="logo_inicio" src="img/instagram-logo-inicio.png" alt="Instagram logo"></a>
+                        <a href="https://wa.me/556183167093" target="_blank"><img class="logo_inicio"
+                                src="img/whatsapp_logo_inicio.webp" alt="Whatsapp logo"></a>
+                        <a href="https://www.instagram.com/renovcomunicacao/?igshid=ZDdkNTZiNTM%3D" target="_blank"><img
+                                class="logo_inicio" src="img/instagram-logo-inicio.png" alt="Instagram logo"></a>
                     </div>
                 </div>
                 <div>
                     <p>Confira um de nossos trabalhos</p>
-                    <video src="video/video-cliente-1.mp4" controls></video>
+                    <video src="video/video-editado.mp4" controls></video>
                 </div>
             </div>
         </section>
         <section id="sobrenos">
+            <span id="span_circulo" data-scroll-revell="left">R</span>
             <div id="info_sobrenos" data-scroll-revell="left">
                 <h1>Sobre a Renov!</h1>
                 <p>Somos uma empresa que atua no ramo da <span>comunicação visual</span> a mais de 8 anos. Já
@@ -55,32 +61,35 @@
                     melhor conforto ao cliente.</p>
                 <p>Se o cliente esta satisfeito, a Renov fica em dobro!</p>
             </div>
-            <img id="foto_sobrenos" src="img/foto-cliente-1.jpeg" alt="Foto apresentação" data-scroll-revell="right">
+                <img class="foto_sobrenos" src="img/foto-cliente-1.jpeg" alt="Foto apresentação"
+                    data-scroll-revell="right">
         </section>
         <section id="fotos">
             <div id="fotos_section">
                 <h1>Nossos serviços <img src="img/foto-camera.png" alt="Câmera" id="camera"></h1>
                 <div id="fotos_album">
-                    <img class="fotos_item" src="img/foto-cliente-3.jpeg" alt="">
-                    <img class="fotos_item" src="img/foto-cliente-4.jpeg" alt="">
-                    <img class="fotos_item" src="img/foto-cliente-5.jpeg" alt="">
-                    <img class="fotos_item" src="img/foto-cliente-6.jpeg" alt="">
-                    <img class="fotos_item" src="img/foto-cliente-7.jpeg" alt="">
-                    <img class="fotos_item" src="img/foto-cliente-8.jpeg" alt="">
-                    <img class="fotos_item" src="img/foto-cliente-9.jpeg" alt="">
-                    <img class="fotos_item" src="img/foto-cliente-10.jpeg" alt="">
-                    <img class="fotos_item" src="img/foto-cliente-11.jpeg" alt="">
-                    <img class="fotos_item" src="img/foto-cliente-12.jpeg" alt="">
-                    <img class="fotos_item" src="img/foto-cliente-13.jpeg" alt="">
-                    <img class="fotos_item" src="img/foto-cliente-14.jpeg" alt="">
+                    <img class="fotos_item" src="img/foto-cliente-3.jpeg" alt="Carola">
+                    <img class="fotos_item" src="img/foto-cliente-4.jpeg" alt="Drogaria Junior">
+                    <img class="fotos_item" src="img/foto-cliente-5.jpeg" alt="Drogaria Junior">
+                    <img class="fotos_item" src="img/foto-cliente-6.jpeg" alt="Espaço Rosa Pitanga">
+                    <img class="fotos_item" src="img/foto-cliente-7.jpeg" alt="Restaurante Purquapá">
+                    <img class="fotos_item" src="img/foto-cliente-8.jpeg" alt="Restaurante Purquapá">
+                    <img class="fotos_item" src="img/foto-cliente-9.jpeg" alt="Roma Soluções Automotivas">
+                    <img class="fotos_item" src="img/foto-cliente-10.jpeg" alt="Roma Soluções Automotivas">
+                    <img class="fotos_item" src="img/foto-cliente-11.jpeg" alt="Hiper Popular Drogarias">
+                    <img class="fotos_item" src="img/foto-cliente-12.jpeg" alt="Hiper Popular Drogarias">
+                    <img class="fotos_item" src="img/foto-cliente-13.jpeg" alt="New Celular Informática">
+                    <img class="fotos_item" src="img/foto-cliente-14.jpeg" alt="Stonia Ide & Coffee">
                 </div>
             </div>
         </section>
         <footer id="contato">
-           <p>Se interessou por nosso serviço? Chame a gente no WhatsApp</p>
-           <a href="https://wa.me/556183167093" target="_blank"><img class="logo" src="img/whatsapp_logo.jpg" alt="Logo whatsApp"></a>
-           <p>Siga a gente no nosso instagram!</p>
-           <a href="https://www.instagram.com/renovcomunicacao/?igshid=ZDdkNTZiNTM%3D" target="_blank"><img class="logo" src="img/instagram-logo.webp" alt="Logo instagram"></a>
+            <p>Se interessou por nosso serviço? Chame a gente no WhatsApp</p>
+            <a href="https://wa.me/556183167093" target="_blank"><img class="logo" src="img/whatsapp_logo.jpg"
+                    alt="Logo whatsApp"></a>
+            <p>Siga a gente no nosso instagram!</p>
+            <a href="https://www.instagram.com/renovcomunicacao/?igshid=ZDdkNTZiNTM%3D" target="_blank"><img
+                    class="logo" src="img/instagram-logo.webp" alt="Logo instagram"></a>
         </footer>
     </main>
     <script src="./script/script.js"></script>

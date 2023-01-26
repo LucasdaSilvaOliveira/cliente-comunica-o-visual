@@ -1,6 +1,10 @@
 const title = document.getElementById('main_title');
-
-const target = document.querySelectorAll('[data-scroll-revell]')
+const target = document.querySelectorAll('[data-scroll-revell]');
+const toggleMenu = document.getElementById('toggle_menu');
+const menu = document.querySelector('nav');
+const itensMenu = Array.from(document.querySelectorAll('.itens_menu'));
+const fotosItem = document.querySelectorAll('.fotos_item');
+console.log(fotosItem)
 
 function animateTitle(elemento) {
 
@@ -32,4 +36,17 @@ animarScroll()
 
 window.addEventListener('scroll', () => {
     animarScroll()
+})
+
+toggleMenu.addEventListener('click', () => {
+   menu.classList.toggle('aparecer_menu')
+
+   toggleMenu.classList.toggle('rotate_toggle')
+
+   itensMenu.forEach(item =>  {
+
+    item.classList.toggle('aparecer_itens_menu')
+
+    
+   })
 })
