@@ -71,7 +71,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #363434;
-    font-size: 22px;
+    font-size: 20px;
     transition: all 150ms ease-in-out;
     padding-left: 5px;
 }
@@ -86,7 +86,7 @@ nav a {
 
 nav a:hover {
     border-left: 2px solid #770505;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 main {
